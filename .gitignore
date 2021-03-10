@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # mypy
-.mypy_cache/
+.mypy_cache
 
 # Pycharm files
 .idea
