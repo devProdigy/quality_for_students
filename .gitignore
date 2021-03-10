@@ -8,3 +8,7 @@ __pycache__/
 
 # Pycharm files
 .idea
+
+# test-run files
+.coverage
+.pytest_cache
