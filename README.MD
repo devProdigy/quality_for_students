@@ -64,7 +64,7 @@ If needed: run `poetry update` to update the locked dependencies to the most rec
 version, honoring the constrains put inside `pyproject.toml`.
 
 
-##Automated Tasks
+## Automated Tasks
 
 ### Run tests
 ```shell
