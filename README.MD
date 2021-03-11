@@ -73,7 +73,7 @@ poetry run inv test
 
 ### Run code quality checks
 ```shell
-poetry run inv code-check
+poetry run inv check-code
 ```
 
 ### Run safety checks for project libraries
