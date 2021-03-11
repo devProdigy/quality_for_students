@@ -14,7 +14,7 @@ class User:
 
     def get_full_name(self) -> str:
         """Return full name."""
-        return f"{self.first_name} {self.last_name}"
+        return f"{self.first_name} {self.last_name}!"
 
     @staticmethod  # noqa: WPS605 Found method without arguments
     def get_user_time():
