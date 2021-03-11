@@ -76,7 +76,7 @@ def check_code(ctx, diff=False):
 
     with _CollectFailures(ctx) as new_ctx:
         print("Checking Black formatting.")
-        new_ctx.run(f"poetry run black  --check -- { files_to_check or '.' }")
+        new_ctx.run(f"poetry run black  --diff -- { files_to_check or '.' }")
 
         print("Checking the style.")
         new_ctx.run(f"poetry run flake8 -- { files_to_check }")
